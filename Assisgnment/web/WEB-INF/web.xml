@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>view/login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>AttController</servlet-name>
+        <servlet-class>controller.AttController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TimetableController</servlet-name>
+        <servlet-class>controller.TimetableController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>controller.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AttViewController</servlet-name>
+        <servlet-class>controller.AttViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AttController</servlet-name>
+        <url-pattern>/lecture/takeatt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TimetableController</servlet-name>
+        <url-pattern>/lecture/timetable</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AttViewController</servlet-name>
+        <url-pattern>/student/attview</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

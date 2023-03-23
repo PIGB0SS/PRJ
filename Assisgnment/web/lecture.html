@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Lecture view</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .lecture{
+                height: fit-content;
+                width: fit-content;
+                border: none;
+                margin-top: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <div class="lecture">
+            <form action="action" method="post">
+                Lecturer: <input type="text" name="name"/>
+                <input type="submit" value="View"/>
+            </form>
+        </div>
+        <div class="row g-2" style="width: 50%; margin-top: 30px; margin-left: 10px;">
+            <div class="col-md">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid">
+                        <option selected>Open this select menu</option>
+                        <option value="1">2022</option>
+                        <option value="2">2021</option>
+                        <option value="3">2020</option>
+                    </select>
+                    <label for="floatingSelectGrid">Year</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelectGrid">
+                        <option selected>Open this select menu</option>
+                        <option value="1">10/10 to 16/10</option>
+                        <option value="2">03/10 to 09/10</option>
+                        <option value="3">26/09 to 02/09</option>
+                    </select>
+                    <label for="floatingSelectGrid">Week</label>
+                </div>
+            </div>
+        </div>
+        <table class="table" style="margin-left: 10px; margin-right: 10px; margin-top: 20px; width: 99%;">
+            <thead>
+                <tr>
+                    <th scope="col">Slot</th>
+                    <th scope="col">MON</th>
+                    <th scope="col">TUE</th>
+                    <th scope="col">WED</th>
+                    <th scope="col">THU</th>
+                    <th scope="col">FRI</th>
+                    <th scope="col">SAT</th>
+                    <th scope="col">SUN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td><a href="take.html">Group name<br/>Subject name<br/>Room<br/>Attend</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+</html>
