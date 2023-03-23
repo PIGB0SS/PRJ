@@ -13,11 +13,6 @@ import java.util.*;
 import model.*;
 import dal.*;
 import util.DateTimeHelper;
-
-/**
- *
- * @author binhp
- */
 public class TimetableController extends HttpServlet {
 
     /**

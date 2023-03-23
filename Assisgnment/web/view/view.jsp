@@ -1,8 +1,4 @@
-<%-- 
-    Document   : view
-    Created on : Nov 7, 2022, 11:04:17 PM
-    Author     : binhp
---%>
+
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

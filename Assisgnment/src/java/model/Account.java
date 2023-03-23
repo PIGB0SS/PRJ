@@ -4,10 +4,7 @@
  */
 package model;
 
-/**
- *
- * @author binhp
- */
+
 public class Account {
     private String username;
     private String password;

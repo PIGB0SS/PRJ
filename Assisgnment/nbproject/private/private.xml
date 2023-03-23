@@ -3,20 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/view/timetable.jsp</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/take.html</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/lecture.html</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/login.html</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/src/java/dal/StudentDBContext.java</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/index.html</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/view/view.jsp</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/src/java/controller/LoginController.java</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/view/att.jsp</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/src/java/controller/AttViewController.java</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/src/java/controller/TimetableController.java</file>
-            <file>file:/C:/Users/doanv/Downloads/Assisgnment/web/student.html</file>
+            <file>file:/C:/Users/doanv/OneDrive/Documents/NetBeansProjects/Assisgnment/src/java/controller/LoginController.java</file>
         </group>
     </open-files>
 </project-private>

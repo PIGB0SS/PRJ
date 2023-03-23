@@ -17,10 +17,6 @@ import model.Session;
 import model.Student;
 import model.TimeSlot;
 
-/**
- *
- * @author binhp
- */
 public class AttViewController extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

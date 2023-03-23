@@ -12,10 +12,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import model.Account;
 
-/**
- *
- * @author binhp
- */
 public class AccountDBContext extends DBContext<Account>{
     public Account get(String username, String password){
             PreparedStatement stm = null;

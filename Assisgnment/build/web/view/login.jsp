@@ -1,8 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : Nov 7, 2022, 10:09:34 PM
-    Author     : binhp
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!doctype html>

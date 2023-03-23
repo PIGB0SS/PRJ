@@ -8,10 +8,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- *
- * @author binhp
- */
+
 public class DateTimeHelper {
     public static Date toDate(String value, String format) throws ParseException{
         return new SimpleDateFormat(format).parse(value);

@@ -6,10 +6,6 @@ package model;
 import java.util.*;
 import java.sql.Date;
 
-/**
- *
- * @author binhp
- */
 public class Session {
     private int id;
     private Group group;

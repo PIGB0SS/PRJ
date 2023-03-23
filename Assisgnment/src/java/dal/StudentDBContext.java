@@ -12,10 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import model.Student;
 
-/**
- *
- * @author binhp
- */
+
 public class StudentDBContext extends DBContext<Student> {
 
     @Override

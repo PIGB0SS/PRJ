@@ -11,11 +11,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author binhp
- * @param <T>
- */
+
 public abstract class DBContext<T> {
     protected Connection con;
     public DBContext(){

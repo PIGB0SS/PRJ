@@ -6,10 +6,6 @@ package model;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author binhp
- */
 public class Student {
     private int id;
     private String name;

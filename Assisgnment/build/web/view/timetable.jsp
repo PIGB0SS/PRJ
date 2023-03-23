@@ -1,8 +1,3 @@
-<%-- 
-    Document   : timetable
-    Created on : Nov 5, 2022, 10:14:55 PM
-    Author     : binhp
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <jsp:useBean id="helper" class="util.DateTimeHelper"/>

@@ -8,20 +8,14 @@ import dal.AccountDBContext;
 import dal.LecturerDBContext;
 import dal.StudentDBContext;
 import java.io.IOException;
-import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import java.util.ArrayList;
 import model.Account;
 import model.Lecture;
 import model.Student;
 
-/**
- *
- * @author binhp
- */
 public class LoginController extends HttpServlet {
 
     /**
